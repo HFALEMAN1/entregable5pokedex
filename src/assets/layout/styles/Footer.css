@@ -1,0 +1,35 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background-color: var(--color-primary)
+}
+
+.footer__black {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+
+.home__imgO {
+    position: absolute;
+    object-fit: cover;
+    z-index: 2;
+    max-width: 90px;
+    top: 6%;
+    left: 42%;
+    animation: spin 4s infinite linear;
+
+
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
